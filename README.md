@@ -33,7 +33,56 @@ Steps :
 
 <img width="1202" alt="Screenshot 2023-12-08 at 1 36 27 PM" src="https://github.com/sonupanchal0606/connect-php-with-mysql-using-MAMP/assets/55386781/8598def5-61dc-4c8d-b5d3-6acce9964685">
 
-6) to connect with the PhpMyAdmin DB you can get the reference code here http://localhost:8888/MAMP/?language=English --> MySql -> Examples
+6) To connect with the PhpMyAdmin DB you can get the reference code here http://localhost:8888/MAMP/?language=English --> MySql -> Examples
+   
+7) To access the PhpMyAdmin databse from your terminal :
+      - cd /Applications/MAMP/Library/bin
+      - ./mysql -uroot -proot
+mysql> show databases;
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+Connection id:    133
+Current database: bank
+
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| bank               |
+| flaskloginDB       |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+6 rows in set (0.01 sec)
+
+mysql> use flaskloginDB;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> show tables;
++------------------------+
+| Tables_in_flasklogindb |
++------------------------+
+| users                  |
++------------------------+
+1 row in set (0.00 sec)
+
+mysql> select * from users;
++---------+----------+--------------------+----------+
+| user_id | name     | email              | password |
++---------+----------+--------------------+----------+
+|     123 | sonu     | sonu@gmail.com     |      123 |
+|     124 | arya     | arya@gmail.com     |      124 |
+|     125 | Khaleesi | Khaleesi@gmail.com |      123 |
+|     126 | xyz      | xyz@gmail.com      |      123 |
++---------+----------+--------------------+----------+
+4 rows in set (0.00 sec)
+
+mysql> 
+
+
   
 
 
