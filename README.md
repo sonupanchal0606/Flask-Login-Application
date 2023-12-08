@@ -38,49 +38,7 @@ Steps :
 7) To access the PhpMyAdmin databse from your terminal :
       - cd /Applications/MAMP/Library/bin
       - ./mysql -uroot -proot
-mysql> show databases;
-ERROR 2006 (HY000): MySQL server has gone away
-No connection. Trying to reconnect...
-Connection id:    133
-Current database: bank
-
-+--------------------+
-| Database           |
-+--------------------+
-| information_schema |
-| bank               |
-| flaskloginDB       |
-| mysql              |
-| performance_schema |
-| sys                |
-+--------------------+
-6 rows in set (0.01 sec)
-
-mysql> use flaskloginDB;
-Reading table information for completion of table and column names
-You can turn off this feature to get a quicker startup with -A
-
-Database changed
-mysql> show tables;
-+------------------------+
-| Tables_in_flasklogindb |
-+------------------------+
-| users                  |
-+------------------------+
-1 row in set (0.00 sec)
-
-mysql> select * from users;
-+---------+----------+--------------------+----------+
-| user_id | name     | email              | password |
-+---------+----------+--------------------+----------+
-|     123 | sonu     | sonu@gmail.com     |      123 |
-|     124 | arya     | arya@gmail.com     |      124 |
-|     125 | Khaleesi | Khaleesi@gmail.com |      123 |
-|     126 | xyz      | xyz@gmail.com      |      123 |
-+---------+----------+--------------------+----------+
-4 rows in set (0.00 sec)
-
-mysql> 
+<img width="733" alt="Screenshot 2023-12-08 at 1 50 59 PM" src="https://github.com/sonupanchal0606/connect-php-with-mysql-using-MAMP/assets/55386781/efec504a-7862-43e4-9f97-34f7345df199">
 
 
   
