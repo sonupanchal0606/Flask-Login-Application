@@ -14,4 +14,7 @@ Steps :
 1) Download and install PyCharm Community Edition from https://www.jetbrains.com/pycharm/download/
 2) Download and install MAMP from "https://www.mamp.info/en/downloads/"
 3) Open Pycharm Code Editor --> Create Project "Expense-App"
-4) 
+      - Create main.py to create the flask application
+      - Create templates folder to include html files into your project
+      - create static folder to include static files like css or js into your project
+
