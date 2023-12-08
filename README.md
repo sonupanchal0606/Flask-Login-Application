@@ -17,6 +17,7 @@ Steps :
       - Create main.py to create the flask application
       - Create templates folder to include html files into your project
       - create static folder to include static files like css or js into your project
-<img width="378" alt="Screenshot 2023-12-08 at 12 50 00 PM" src="https://github.com/sonupanchal0606/connect-php-with-mysql-using-MAMP/assets/55386781/14b82ed4-c764-49a7-bbdf-8dc0212121de">
+      - The project Directory will look like this : 
+      <img width="378" alt="Screenshot 2023-12-08 at 12 50 00 PM" src="https://github.com/sonupanchal0606/connect-php-with-mysql-using-MAMP/assets/55386781/14b82ed4-c764-49a7-bbdf-8dc0212121de">
 
 
